@@ -57,3 +57,4 @@ class ATM:
 
     def check_balance(self):
        print(Color.CYAN + f"Your current balance is : Rs{self.balance}" + Color.RESET)
+    print("")
