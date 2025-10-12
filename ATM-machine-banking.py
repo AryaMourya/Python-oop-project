@@ -57,4 +57,29 @@ class ATM:
 
     def check_balance(self):
        print(Color.CYAN + f"Your current balance is : Rs{self.balance}" + Color.RESET)
-    print("")
+def main():
+    atm = ATM()
+    print(Color.CYAN + "Welcome to the ATM Banking System!" + Color.RESET)
+    atm.set_pin()
+    if not atm.verify_pin():
+       return
+    while True:
+       print("\nSelect an option:")
+       print("1. Deposit")
+       print("2. Withdraw")
+       print("3. Check Balance")
+       print("4. Exit")
+       choice = input("Enter your choice (1-4): ")
+       if choice == '1':
+          atm.deposit()
+       elif choice == '2':
+          atm.withdraw()
+       elif choice == '3':
+          atm.check_balance()
+       elif choice == '4':
+          print(Color.CYAN + "Thank you for using the ATM Banking System. Goodbye!" + Color.RESET)
+          break
+       else:
+          print(Color.RED + "Invalid choice! Please select a valid option." + Color.RESET)
+if __name__ == "__main__":
+    main() 
