@@ -82,4 +82,4 @@ def main():
        else:
           print(Color.RED + "Invalid choice! Please select a valid option." + Color.RESET)
 if __name__ == "__main__":
-    main() 
+    main()
