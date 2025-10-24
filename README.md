@@ -47,6 +47,12 @@ Python-oop-projects/
    ```bash
    git clone https://github.com/aryamourya/OOPs-in-Python.git
 
+## AUTHOR:- ARYA MOURYA
+### Contact 
+ - Email: [aryamourya0@gmail.com]
+ - LinkedIn:
+   [www.linkedin.com/in/arya-mourya-a6a126316]
+
 ## How to navigate to any folder
 ```
   cd OOPs-in-Python/Bank-Management-System
